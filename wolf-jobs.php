@@ -215,20 +215,14 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 			/**
 			 * Functions used in frontend and admin
 			 */
-			include_once( 'inc/wfolio-core-functions.php' );
-
-			if ( $this->is_request( 'admin' ) ) {
-				include_once( 'inc/admin/class-wfolio-admin.php' );
-			}
+			include_once( 'inc/core-functions.php' );
 
 			if ( $this->is_request( 'frontend' ) ) {
-				include_once( 'inc/frontend/wfolio-functions.php' );
+				include_once( 'inc/frontend/functions.php' );
 
 				if ( ! wp_is_block_theme() ) {
-					include_once( 'inc/frontend/wfolio-template-hooks.php' );
+					include_once( 'inc/frontend/template-hooks.php' );
 				}
-
-				include_once( 'inc/frontend/class-wfolio-shortcodes.php' );
 			}
 		}
 
@@ -236,7 +230,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		 * Function used to Init Jobs Template Functions - This makes them pluggable by plugins and themes.
 		 */
 		public function include_template_functions() {
-			include_once( 'inc/frontend/wfolio-template-functions.php' );
+			include_once( 'inc/frontend/template-functions.php' );
 		}
 
 		/**
@@ -248,7 +242,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		public function register_widget() {
 
 			// Include
-			include_once( 'inc/widgets/class-wfolio-last-jobs.php' );
+			//include_once( 'inc/widgets/class-last-jobs.php' );
 
 			// Register widgets
 			//register_widget( 'WFOLIO_Widget_Last_Photos' );
@@ -416,11 +410,11 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 } // end class exists check
 
 /**
- * Returns the main instance of WFOLIO to prevent the need to use globals.
+ * Returns the main instance of WOLF_JOBS to prevent the need to use globals.
  *
  * @return Wolf_Jobs
  */
-function WFOLIO() {
+function WOLF_JOBS() {
 	return Wolf_Jobs::instance();
 }
-WFOLIO(); // Go
+WOLF_JOBS(); // Go

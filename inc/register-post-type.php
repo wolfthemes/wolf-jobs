@@ -46,7 +46,7 @@ $args = array(
 	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields', 'excerpt' ),
 	'exclude_from_search' => false,
 	'description' => esc_html__( 'Present your job', 'wolf-jobs' ),
-	'menu_icon' => 'dashicons-admin-customizer',
+	'menu_icon' => 'dashicons-id-alt',
 );
 
 register_post_type( 'job', $args );
