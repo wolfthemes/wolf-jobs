@@ -1,0 +1,16 @@
+{
+	"name": "wolfthemes/wolf-jobs",
+	"description": "A simple job listing WordPress plugin for WolfThemes themes.",
+	"type": "wordpress-plugin",
+	"homepage": "https://github.com/wolfthemes/wolf-jobs",
+	"authors": [
+		{
+			"name": "WolfThemes",
+			"email": "contact@wolfthemes.com",
+			"homepage": "https://wolfthemes.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	}
+}
