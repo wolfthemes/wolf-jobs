@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Job Listing
- * Plugin URI: https://wlfthm.es/wolf-portfolio
+ * Plugin URI: https://wlfthm.es/wolf-jobs
  * Description: A simple job listing WordPress plugin for WolfThemes themes.
  * Version: 1.0.0
  * Author: WolfThemes
@@ -9,7 +9,7 @@
  * Requires at least: 5.0
  * Tested up to: 6.0
  *
- * Text Domain: wolf-portfolio
+ * Text Domain: wolf-jobs
  * Domain Path: /languages/
  *
  * @package WolfJobs
@@ -47,7 +47,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		public $version = '1.0.0';
 
 		/**
-		 * @var Portfolio The single instance of the class
+		 * @var Jobs The single instance of the class
 		 */
 		protected static $_instance = null;
 
@@ -64,13 +64,13 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		public $template_url;
 
 		/**
-		 * Main Portfolio Instance
+		 * Main Jobs Instance
 		 *
-		 * Ensures only one instance of Portfolio is loaded or can be loaded.
+		 * Ensures only one instance of Jobs is loaded or can be loaded.
 		 *
 		 * @static
 		 * @see WG()
-		 * @return Portfolio - Main instance
+		 * @return Jobs - Main instance
 		 */
 		public static function instance() {
 			if ( is_null( self::$_instance ) ) {
@@ -80,7 +80,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		}
 
 		/**
-		 * Portfolio Constructor.
+		 * Jobs Constructor.
 		 */
 		public function __construct() {
 
@@ -105,8 +105,8 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 				<p><?php
 
 				printf(
-					esc_html__( '%1$s needs at least PHP %2$s installed on your server. You have version %3$s currently installed. Please contact your hosting service provider if you\'re not able to update PHP by yourself.', 'wolf-portfolio' ),
-					'Portfolio',
+					esc_html__( '%1$s needs at least PHP %2$s installed on your server. You have version %3$s currently installed. Please contact your hosting service provider if you\'re not able to update PHP by yourself.', 'wolf-jobs' ),
+					'Job Listing',
 					$this->required_php_version,
 					phpversion()
 				);
@@ -233,7 +233,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		}
 
 		/**
-		 * Function used to Init Portfolio Template Functions - This makes them pluggable by plugins and themes.
+		 * Function used to Init Jobs Template Functions - This makes them pluggable by plugins and themes.
 		 */
 		public function include_template_functions() {
 			include_once( 'inc/frontend/wfolio-template-functions.php' );
@@ -255,7 +255,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		}
 
 		/**
-		 * Init Portfolio when WordPress Initialises.
+		 * Init jobs when WordPress Initialises.
 		 */
 		public function init() {
 
@@ -266,7 +266,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 			$this->load_plugin_textdomain();
 
 			// Variables
-			$this->template_url = apply_filters( 'wolf_jobs_template_url', 'wolf-portfolio/' );
+			$this->template_url = apply_filters( 'wolf_jobs_template_url', 'wolf-jobs/' );
 
 			// Classes/actions loaded for the frontend and for ajax requests
 			if ( ( ! is_admin() || defined( 'DOING_AJAX' ) ) && ! wp_is_block_theme() ) {
@@ -380,7 +380,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		 * @return string
 		 */
 		public function template_path() {
-			return apply_filters( 'wolf_jobs_template_path', 'wolf-portfolio/' );
+			return apply_filters( 'wolf_jobs_template_path', 'wolf-jobs/' );
 		}
 
 		/**
@@ -392,11 +392,11 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 				include_once 'inc/admin/updater.php';
 			}
 
-			$repo = 'wolfthemes/wolf-portfolio';
+			$repo = 'wolfthemes/wolf-jobs';
 
 			$config = array(
 				'slug' => plugin_basename( __FILE__ ),
-				'proper_folder_name' => 'wolf-portfolio',
+				'proper_folder_name' => 'wolf-jobs',
 				'api_url' => 'https://api.github.com/repos/' . $repo . '',
 				'raw_url' => 'https://raw.github.com/' . $repo . '/master/',
 				'github_url' => 'https://github.com/' . $repo . '',
