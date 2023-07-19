@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-jpbs\n"
-"POT-Creation-Date: 2023-07-18 11:16:28+00:00\n"
+"POT-Creation-Date: 2023-07-19 08:14:22+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -60,129 +60,131 @@ msgstr ""
 msgid "B"
 msgstr ""
 
-#: inc/admin/updater.php:434
+#: inc/admin/updater.php:434 pack/wolf-jpbs/inc/admin/updater.php:434
 msgid ""
 "The plugin has been updated, but could not be reactivated. Please "
 "reactivate it manually."
 msgstr ""
 
-#: inc/admin/updater.php:435
+#: inc/admin/updater.php:435 pack/wolf-jpbs/inc/admin/updater.php:435
 msgid "Plugin reactivated successfully."
 msgstr ""
 
 #: inc/register-post-type.php:18 inc/register-post-type.php:30
+#: pack/wolf-jpbs/inc/register-post-type.php:18
+#: pack/wolf-jpbs/inc/register-post-type.php:30
 msgid "Jobs"
 msgstr ""
 
-#: inc/register-post-type.php:19
+#: inc/register-post-type.php:19 pack/wolf-jpbs/inc/register-post-type.php:19
 msgid "Job"
 msgstr ""
 
-#: inc/register-post-type.php:20
+#: inc/register-post-type.php:20 pack/wolf-jpbs/inc/register-post-type.php:20
 msgid "Add New"
 msgstr ""
 
-#: inc/register-post-type.php:21
+#: inc/register-post-type.php:21 pack/wolf-jpbs/inc/register-post-type.php:21
 msgid "Add New Job"
 msgstr ""
 
-#: inc/register-post-type.php:22
+#: inc/register-post-type.php:22 pack/wolf-jpbs/inc/register-post-type.php:22
 msgid "All Jobs"
 msgstr ""
 
-#: inc/register-post-type.php:23
+#: inc/register-post-type.php:23 pack/wolf-jpbs/inc/register-post-type.php:23
 msgid "Edit Job"
 msgstr ""
 
-#: inc/register-post-type.php:24
+#: inc/register-post-type.php:24 pack/wolf-jpbs/inc/register-post-type.php:24
 msgid "New Job"
 msgstr ""
 
-#: inc/register-post-type.php:25
+#: inc/register-post-type.php:25 pack/wolf-jpbs/inc/register-post-type.php:25
 msgid "View Job"
 msgstr ""
 
-#: inc/register-post-type.php:26
+#: inc/register-post-type.php:26 pack/wolf-jpbs/inc/register-post-type.php:26
 msgid "Search Jobs"
 msgstr ""
 
-#: inc/register-post-type.php:27
+#: inc/register-post-type.php:27 pack/wolf-jpbs/inc/register-post-type.php:27
 msgid "No Jobs found"
 msgstr ""
 
-#: inc/register-post-type.php:28
+#: inc/register-post-type.php:28 pack/wolf-jpbs/inc/register-post-type.php:28
 msgid "No jobs found in Trash"
 msgstr ""
 
-#: inc/register-post-type.php:48
+#: inc/register-post-type.php:48 pack/wolf-jpbs/inc/register-post-type.php:48
 msgid "Present your job"
 msgstr ""
 
-#: inc/register-taxonomy.php:17
+#: inc/register-taxonomy.php:17 pack/wolf-jpbs/inc/register-taxonomy.php:17
 msgid "Job Categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:18
+#: inc/register-taxonomy.php:18 pack/wolf-jpbs/inc/register-taxonomy.php:18
 msgid "Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:19
+#: inc/register-taxonomy.php:19 pack/wolf-jpbs/inc/register-taxonomy.php:19
 msgid "Search Job Categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:20
+#: inc/register-taxonomy.php:20 pack/wolf-jpbs/inc/register-taxonomy.php:20
 msgid "Popular Job Categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:21
+#: inc/register-taxonomy.php:21 pack/wolf-jpbs/inc/register-taxonomy.php:21
 msgid "All Job Categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:22
+#: inc/register-taxonomy.php:22 pack/wolf-jpbs/inc/register-taxonomy.php:22
 msgid "Parent Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:23
+#: inc/register-taxonomy.php:23 pack/wolf-jpbs/inc/register-taxonomy.php:23
 msgid "Parent Job Category:"
 msgstr ""
 
-#: inc/register-taxonomy.php:24
+#: inc/register-taxonomy.php:24 pack/wolf-jpbs/inc/register-taxonomy.php:24
 msgid "Edit Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:25
+#: inc/register-taxonomy.php:25 pack/wolf-jpbs/inc/register-taxonomy.php:25
 msgid "Update Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:26
+#: inc/register-taxonomy.php:26 pack/wolf-jpbs/inc/register-taxonomy.php:26
 msgid "Add New Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:27
+#: inc/register-taxonomy.php:27 pack/wolf-jpbs/inc/register-taxonomy.php:27
 msgid "New Job Category"
 msgstr ""
 
-#: inc/register-taxonomy.php:28
+#: inc/register-taxonomy.php:28 pack/wolf-jpbs/inc/register-taxonomy.php:28
 msgid "Separate job categories with commas"
 msgstr ""
 
-#: inc/register-taxonomy.php:29
+#: inc/register-taxonomy.php:29 pack/wolf-jpbs/inc/register-taxonomy.php:29
 msgid "Add or remove job categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:30
+#: inc/register-taxonomy.php:30 pack/wolf-jpbs/inc/register-taxonomy.php:30
 msgid "Choose from the most used job categories"
 msgstr ""
 
-#: inc/register-taxonomy.php:31
+#: inc/register-taxonomy.php:31 pack/wolf-jpbs/inc/register-taxonomy.php:31
 msgid "No categories found"
 msgstr ""
 
-#: inc/register-taxonomy.php:32
+#: inc/register-taxonomy.php:32 pack/wolf-jpbs/inc/register-taxonomy.php:32
 msgid "Categories"
 msgstr ""
 
-#: wolf-jobs.php:108
+#: pack/wolf-jpbs/wolf-jobs.php:108 wolf-jobs.php:108
 msgid ""
 "%1$s needs at least PHP %2$s installed on your server. You have version "
 "%3$s currently installed. Please contact your hosting service provider if "
