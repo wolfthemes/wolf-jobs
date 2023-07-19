@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-jpbs\n"
-"POT-Creation-Date: 2023-07-19 08:14:22+00:00\n"
+"POT-Creation-Date: 2023-07-19 15:16:49+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -182,6 +182,134 @@ msgstr ""
 
 #: inc/register-taxonomy.php:32 pack/wolf-jpbs/inc/register-taxonomy.php:32
 msgid "Categories"
+msgstr ""
+
+#: inc/register-taxonomy.php:48 pack/wolf-jpbs/inc/register-taxonomy.php:48
+msgid "Job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:49 pack/wolf-jpbs/inc/register-taxonomy.php:49
+msgid "Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:50 pack/wolf-jpbs/inc/register-taxonomy.php:50
+msgid "Search Job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:51 pack/wolf-jpbs/inc/register-taxonomy.php:51
+msgid "Popular Job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:52 pack/wolf-jpbs/inc/register-taxonomy.php:52
+msgid "All Job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:53 pack/wolf-jpbs/inc/register-taxonomy.php:53
+msgid "Parent Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:54 pack/wolf-jpbs/inc/register-taxonomy.php:54
+msgid "Parent Job Type:"
+msgstr ""
+
+#: inc/register-taxonomy.php:55 pack/wolf-jpbs/inc/register-taxonomy.php:55
+msgid "Edit Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:56 pack/wolf-jpbs/inc/register-taxonomy.php:56
+msgid "Update Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:57 pack/wolf-jpbs/inc/register-taxonomy.php:57
+msgid "Add New Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:58 pack/wolf-jpbs/inc/register-taxonomy.php:58
+msgid "New Job Type"
+msgstr ""
+
+#: inc/register-taxonomy.php:59 pack/wolf-jpbs/inc/register-taxonomy.php:59
+msgid "Separate job Types with commas"
+msgstr ""
+
+#: inc/register-taxonomy.php:60 pack/wolf-jpbs/inc/register-taxonomy.php:60
+msgid "Add or remove job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:61 pack/wolf-jpbs/inc/register-taxonomy.php:61
+msgid "Choose from the most used job Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:62 pack/wolf-jpbs/inc/register-taxonomy.php:62
+msgid "No Types found"
+msgstr ""
+
+#: inc/register-taxonomy.php:63 pack/wolf-jpbs/inc/register-taxonomy.php:63
+msgid "Types"
+msgstr ""
+
+#: inc/register-taxonomy.php:78 pack/wolf-jpbs/inc/register-taxonomy.php:78
+msgid "Job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:79 pack/wolf-jpbs/inc/register-taxonomy.php:79
+msgid "Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:80 pack/wolf-jpbs/inc/register-taxonomy.php:80
+msgid "Search Job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:81 pack/wolf-jpbs/inc/register-taxonomy.php:81
+msgid "Popular Job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:82 pack/wolf-jpbs/inc/register-taxonomy.php:82
+msgid "All Job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:83 pack/wolf-jpbs/inc/register-taxonomy.php:83
+msgid "Parent Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:84 pack/wolf-jpbs/inc/register-taxonomy.php:84
+msgid "Parent Job Location:"
+msgstr ""
+
+#: inc/register-taxonomy.php:85 pack/wolf-jpbs/inc/register-taxonomy.php:85
+msgid "Edit Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:86 pack/wolf-jpbs/inc/register-taxonomy.php:86
+msgid "Update Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:87 pack/wolf-jpbs/inc/register-taxonomy.php:87
+msgid "Add New Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:88 pack/wolf-jpbs/inc/register-taxonomy.php:88
+msgid "New Job Location"
+msgstr ""
+
+#: inc/register-taxonomy.php:89 pack/wolf-jpbs/inc/register-taxonomy.php:89
+msgid "Separate job Locations with commas"
+msgstr ""
+
+#: inc/register-taxonomy.php:90 pack/wolf-jpbs/inc/register-taxonomy.php:90
+msgid "Add or remove job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:91 pack/wolf-jpbs/inc/register-taxonomy.php:91
+msgid "Choose from the most used job Locations"
+msgstr ""
+
+#: inc/register-taxonomy.php:92 pack/wolf-jpbs/inc/register-taxonomy.php:92
+msgid "No Locations found"
+msgstr ""
+
+#: inc/register-taxonomy.php:93 pack/wolf-jpbs/inc/register-taxonomy.php:93
+msgid "Locations"
 msgstr ""
 
 #: pack/wolf-jpbs/wolf-jobs.php:108 wolf-jobs.php:108
