@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Job Listing
+ * Plugin Name: Job Lisiting
  * Plugin URI: https://wlfthm.es/wolf-jobs
  * Description: A simple job listing WordPress plugin for WolfThemes themes.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
  * Requires at least: 5.0
- * Tested up to: 6.0
+ * Tested up to: 5.5
  *
  * Text Domain: wolf-jobs
  * Domain Path: /languages/
@@ -44,7 +44,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		/**
 		 * @var string
 		 */
-		public $version = '1.0.0';
+		public $version = '1.0.1';
 
 		/**
 		 * @var Jobs The single instance of the class
