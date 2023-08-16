@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Job Lisiting package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Job Lisiting 1.0.1\n"
+"Project-Id-Version: Job Lisiting 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-jobs\n"
-"POT-Creation-Date: 2023-07-20 14:45:29+00:00\n"
+"POT-Creation-Date: 2023-08-15 15:16:08+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -60,6 +60,82 @@ msgstr ""
 msgid "B"
 msgstr ""
 
+#: inc/admin/class-admin.php:101 pack/wolf-jobs/inc/admin/class-admin.php:101
+msgid ""
+"says : <em>Almost done! you need to <a href=\"%1$s\">create a page</a> for "
+"your releases or <a href=\"%2$s\">select an existing page</a> in the plugin "
+"settings</em>."
+msgstr ""
+
+#: inc/admin/class-admin.php:119 pack/wolf-jobs/inc/admin/class-admin.php:119
+msgid ""
+"<br><br>\n"
+"\t\t\t\t\t<a href=\"%1$s\" class=\"button button-primary\">Create a "
+"page</a>\n"
+"\t\t\t\t\t&nbsp;\n"
+"\t\t\t\t\t<a href=\"%2$s\" class=\"button button-primary\">Select an "
+"existing page</a>\n"
+"\t\t\t\t\t&nbsp;\n"
+"\t\t\t\t\t<a href=\"%3$s\" class=\"button\">Skip setup</a>"
+msgstr ""
+
+#: inc/admin/class-admin.php:168 inc/register-post-type.php:18
+#: inc/register-post-type.php:30 pack/wolf-jobs/inc/admin/class-admin.php:168
+#: pack/wolf-jobs/inc/register-post-type.php:18
+#: pack/wolf-jobs/inc/register-post-type.php:30
+#: pack/wolf-jpbs/inc/register-post-type.php:18
+#: pack/wolf-jpbs/inc/register-post-type.php:30
+msgid "Jobs"
+msgstr ""
+
+#: inc/admin/class-admin.php:181 pack/wolf-jobs/inc/admin/class-admin.php:181
+msgid "Your jobs page has been created succesfully"
+msgstr ""
+
+#: inc/admin/class-admin.php:203 pack/wolf-jobs/inc/admin/class-admin.php:203
+msgid "You are currently editing the page that shows the jobs."
+msgstr ""
+
+#: inc/admin/class-admin.php:246 inc/admin/class-options.php:38
+#: pack/wolf-jobs/inc/admin/class-admin.php:246
+#: pack/wolf-jobs/inc/admin/class-options.php:38
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/class-options.php:70 pack/wolf-jobs/inc/admin/class-options.php:70
+msgid "Jobs Archive Page"
+msgstr ""
+
+#: inc/admin/class-options.php:106
+#: pack/wolf-jobs/inc/admin/class-options.php:106
+msgid "- Disabled -"
+msgstr ""
+
+#: inc/admin/class-options.php:119
+#: pack/wolf-jobs/inc/admin/class-options.php:119
+msgid "Select a page..."
+msgstr ""
+
+#: inc/admin/class-options.php:136
+#: pack/wolf-jobs/inc/admin/class-options.php:136
+msgid "Jobs Options"
+msgstr ""
+
+#: inc/admin/class-options.php:139
+#: pack/wolf-jobs/inc/admin/class-options.php:139
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/class-options.php:145
+#: pack/wolf-jobs/inc/admin/class-options.php:145
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/jobs-admin-functions.php:29
+#: pack/wolf-jobs/inc/admin/jobs-admin-functions.php:29
+msgid "Jobs Page"
+msgstr ""
+
 #: inc/admin/updater.php:434 pack/wolf-jobs/inc/admin/updater.php:434
 #: pack/wolf-jpbs/inc/admin/updater.php:434
 msgid ""
@@ -70,14 +146,6 @@ msgstr ""
 #: inc/admin/updater.php:435 pack/wolf-jobs/inc/admin/updater.php:435
 #: pack/wolf-jpbs/inc/admin/updater.php:435
 msgid "Plugin reactivated successfully."
-msgstr ""
-
-#: inc/register-post-type.php:18 inc/register-post-type.php:30
-#: pack/wolf-jobs/inc/register-post-type.php:18
-#: pack/wolf-jobs/inc/register-post-type.php:30
-#: pack/wolf-jpbs/inc/register-post-type.php:18
-#: pack/wolf-jpbs/inc/register-post-type.php:30
-msgid "Jobs"
 msgstr ""
 
 #: inc/register-post-type.php:19 pack/wolf-jobs/inc/register-post-type.php:19

@@ -3,11 +3,11 @@
  * Plugin Name: Job Lisiting
  * Plugin URI: https://wlfthm.es/wolf-jobs
  * Description: A simple job listing WordPress plugin for WolfThemes themes.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
- * Requires at least: 5.0
- * Tested up to: 5.5
+ * Requires at least: 6.0
+ * Tested up to: 6.3
  *
  * Text Domain: wolf-jobs
  * Domain Path: /languages/
@@ -44,7 +44,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 		/**
 		 * @var string
 		 */
-		public $version = '1.0.1';
+		public $version = '1.0.2';
 
 		/**
 		 * @var Jobs The single instance of the class
@@ -217,6 +217,10 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 			 */
 			include_once( 'inc/core-functions.php' );
 
+			if ( $this->is_request( 'admin' ) ) {
+				include_once( 'inc/admin/class-admin.php' );
+			}
+
 			if ( $this->is_request( 'frontend' ) ) {
 				include_once( 'inc/frontend/functions.php' );
 
@@ -317,7 +321,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 
 			}
 
-			if ( is_tax( 'job_type' ) ) {
+			if ( is_tax( 'job_type' ) || is_tax( 'job_category' ) || is_tax( 'job_location' ) ) {
 
 				$term = get_queried_object();
 
@@ -326,6 +330,7 @@ if ( ! class_exists( 'Wolf_Jobs' ) ) {
 				$find[] 	= $this->template_url . 'taxonomy-' . $term->taxonomy . '-' . $term->slug . '.php';
 				$find[] 	= $file;
 				$find[] 	= $this->template_url . $file;
+
 
 			} elseif ( is_post_type_archive( 'job' ) ) {
 
