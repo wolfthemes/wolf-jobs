@@ -1,4 +1,4 @@
-# Job Lisiting by WolfThemes
+# Job Listing by WolfThemes
 
 A simple job listing WordPress plugin for WolfThemes themes.
 
