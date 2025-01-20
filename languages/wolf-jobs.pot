@@ -1,14 +1,14 @@
-# Copyright (C) 2024 WolfThemes
+# Copyright (C) 2025 WolfThemes
 # This file is distributed under the same license as the Job Listing package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Job Listing 1.0.3\n"
+"Project-Id-Version: Job Listing 1.0.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-jobs\n"
-"POT-Creation-Date: 2024-03-06 15:57:57+00:00\n"
+"POT-Creation-Date: 2025-01-20 09:04:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -62,20 +62,20 @@ msgstr ""
 
 #: inc/admin/class-admin.php:101 pack/wolf-jobs/inc/admin/class-admin.php:101
 msgid ""
-"says : <em>Almost done! you need to <a href=\"%1$s\">create a page</a> for "
-"your releases or <a href=\"%2$s\">select an existing page</a> in the plugin "
-"settings</em>."
+"says : <em>Almost done! you need to <a href=\"%1$s\">create a default "
+"archive page</a> for your job offers or <a href=\"%2$s\">select an existing "
+"page</a> in the plugin settings</em>."
 msgstr ""
 
 #: inc/admin/class-admin.php:119 pack/wolf-jobs/inc/admin/class-admin.php:119
 msgid ""
-"<br><br>\r\n"
+"<br><br>\n"
 "\t\t\t\t\t<a href=\"%1$s\" class=\"button button-primary\">Create a "
-"page</a>\r\n"
-"\t\t\t\t\t&nbsp;\r\n"
+"page</a>\n"
+"\t\t\t\t\t&nbsp;\n"
 "\t\t\t\t\t<a href=\"%2$s\" class=\"button button-primary\">Select an "
-"existing page</a>\r\n"
-"\t\t\t\t\t&nbsp;\r\n"
+"existing page</a>\n"
+"\t\t\t\t\t&nbsp;\n"
 "\t\t\t\t\t<a href=\"%3$s\" class=\"button\">Skip setup</a>"
 msgstr ""
 

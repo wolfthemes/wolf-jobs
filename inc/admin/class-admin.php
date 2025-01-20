@@ -98,7 +98,7 @@ class Wolf_Jobs_admin {
 
 			$message = '<strong>Wolf jobs</strong> ' . sprintf(
 					wp_kses(
-						__( 'says : <em>Almost done! you need to <a href="%1$s">create a page</a> for your releases or <a href="%2$s">select an existing page</a> in the plugin settings</em>.', 'wolf-jobs' ),
+						__( 'says : <em>Almost done! you need to <a href="%1$s">create a default archive page</a> for your job offers or <a href="%2$s">select an existing page</a> in the plugin settings</em>.', 'wolf-jobs' ),
 						array(
 							'a' => array(
 								'href' => array(),

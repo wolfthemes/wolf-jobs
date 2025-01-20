@@ -1,5 +1,9 @@
 # Changelog
 
+#### 20th July 2025 - Version 1.0.4
+
+-   Improvement: Improved default archive page creation admin notice text
+
 #### 6th March July 2024 - Version 1.0.3
 
 -   Fix: Decrease minimum required PHP version to 7.4
