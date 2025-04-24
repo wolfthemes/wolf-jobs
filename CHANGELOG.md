@@ -1,5 +1,9 @@
 # Changelog
 
+#### 24th April 2025 - Version 1.0.5
+
+-   Fix: Prevent loading_plugin_text notice message
+
 #### 20th July 2025 - Version 1.0.4
 
 -   Improvement: Improved default archive page creation admin notice text
